@@ -1,0 +1,121 @@
+* {
+ font-size: 1em;
+ font-family: Arial;
+}
+
+.button {
+	width: 75%;
+}
+
+.line {
+	width: 50%;
+	margin-left: 0;
+	text-align: left;
+}
+
+.parent {
+	display: flex;
+}
+
+.separate {
+	width: 100%;
+	text-align: center;
+}
+
+.row {
+	flex-direction: row;
+	width: 50px;
+	margin-left: 10px;
+}
+
+.row2 {
+	flex-direction: row;
+	width: 70%;
+	font-size: 2em;
+	margin: 10px;
+}
+
+.row3 {
+	flex-direction: row;
+	width: 20%;
+}
+
+.col {
+	flex-direction: column;
+	text-align: center;
+	width: 20%;
+	margin-bottom: 3px;
+	margin-top: 2px;
+}
+
+.coltime {
+	flex-direction: column;
+	text-align: left;
+	width: 20%;
+	margin-bottom: 3px;
+	margin-top: 2px;
+}
+
+.colButtons {
+	flex-direction: row;
+	text-align: right;
+	width: 100%;
+	margin-right: 20px;
+}
+
+.colTitle {
+	flex-direction: colunm;
+	width: 80%;
+	margin-left: 2%;
+	font-size: 2em;
+}
+
+.colTableTitle {
+	flex-direction: colunm;
+	width: 100%;
+	text-align: center;
+	font-size: 1.2em;
+}
+
+.colTableMessage {
+	flex-direction: colunm;
+	width: 100%;
+	text-align: center;
+	font-size: 1.2em;
+	color: red;
+}
+
+.heading {
+	text-align: right;
+}
+
+.padding {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#amount {
+	text-align: center;
+	width: 50px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#refresh {
+	margin-bottom: 5px;
+}
+
+.text {
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+.blue {
+	color: blue;
+	width: 75%;
+	margin: 10px 0px 0 15px;
+}
+
+.blue:hover {
+	cursor: pointer;
+}
