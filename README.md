@@ -31,8 +31,8 @@ This is a pretty straightforward node backend / react frontend setup. Specific i
 2. `cd` into project folder
 3. `cd` to the `server` folder
 4. run `npm i`
-5. run `node server.js` (this will run a node server on port 8090, please make sure nothing else is using 8090. The server gets exchange data every 10 seconds and stores in memory).
-6. `cd` into the `react` folder
+5. run `node server.js` (this will run a node server on port 8090, please make sure nothing else is using 8090. The server gets exchange data every 10 seconds and stores in memory - so don't let it run forever).
+6. in another tab/window, `cd` into the `react` folder inside the project folder
 7. run `npm i`
 8. run `npm run dev` (this will serve the react app on port 8080, please make sure nothing else is using 8080)
 9. Open a web browser and go to URL `localhost:8080`
@@ -41,8 +41,10 @@ This is a pretty straightforward node backend / react frontend setup. Specific i
 NOTES
 ***************
 
+The front end is pretty plain. I did use flex, so it is a bit flex-y when sizing the window, however I did not go through the effort to make it mobile friendly.
+
 To ensure server is working you can copy this directly into a URL and make sure a response is returned: `http://localhost:8090/api/v1/getlatestrates`. Note that you won't get data until 10 seconds have passed after starting the node server.
 
-There are a couple places in the code that I have signified what I would do next. But I wanted to get this over to you and think you can get a good enough idea of what I can do with what I have delivered. Please let me know what else you need from me and what questions I can answer for you.
+There are a couple places in the code that I have signified what I would do next. This is signified with a `// TODO` comment. I wanted to get this over to you and think you can get a good enough idea of what I can do with what I have delivered. Please let me know what else you need from me and what questions I can answer for you.
 
 I would appreciate any feedback as you review my code.
