@@ -39,5 +39,6 @@ NOTES
 
 To ensure server is working you can copy this directly into a URL and make sure a response is returned: `http://localhost:8090/api/v1/getlatestrates`. Note that you won't get data until 10 seconds have passed after starting the node server.
 
-There are a couple places in the code that I have signified what I would do next. But I wanted to get this over to you and think you can get a good enough idea of what I can do with what I have delivered.
+There are a couple places in the code that I have signified what I would do next. But I wanted to get this over to you and think you can get a good enough idea of what I can do with what I have delivered. Please let me know what else you need from me and what questions I can answer for you.
 
+I would appreciate any feedback as you review my code.
