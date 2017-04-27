@@ -2,7 +2,7 @@ Hello, welcome to 'Rate Retriever'.
 
 For setup instructions see the SETUP section below
 
-This meets the following requirements:
+Thank you for the opportunity to submit this project for your review. This meets the following requirements:
 
 Write a web app that will find out what the best exchanges would be for each of these trades. The app should talk to two exchange (some suggestions: BTC-E, Poloniex, Bittrex) api's to get real data.
 
