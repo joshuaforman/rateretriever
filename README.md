@@ -45,6 +45,6 @@ The front end is pretty plain. I did use flex, so it is a bit flex-y when sizing
 
 To ensure server is working you can copy this directly into a URL and make sure a response is returned: `http://localhost:8090/api/v1/getlatestrates`. Note that you won't get data until 10 seconds have passed after starting the node server.
 
-There are a couple places in the code that I have signified what I would do next. This is signified with a `// TODO` comment. I wanted to get this over to you and think you can get a good enough idea of what I can do with what I have delivered. Please let me know what else you need from me and what questions I can answer for you.
+There are a couple places in the code that I have signified what I would do next. This is signified with a `// TODO` comment. I wanted to get this over to you and think you can get a good enough idea of what I can do with what I have delivered.  Please note that these comments are not meant to be an exhaustive list of everything else that needs to be done.
 
-I would appreciate any feedback as you review my code.
+Please let me know what else you need from me and what questions I can answer for you. I would appreciate any feedback as you review my code.
