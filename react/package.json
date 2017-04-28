@@ -25,6 +25,6 @@
   },
   "scripts": {
     "dev": "webpack-dev-server --content-base src --inline --hot --config webpack.config.js",
-    "prod": "node_modules/webpack/bin/webpack.js --production --config webpack_prod.config.js"
+    "prod": "node_modules/webpack/bin/webpack.js -p --config webpack.config.js"
   }
 }
