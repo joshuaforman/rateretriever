@@ -33,9 +33,9 @@ This is a pretty straightforward node backend / react frontend setup. Specific i
 4. run `npm i`
 5. run `node server.js` (this will run a node server on port 8090, please make sure nothing else is using 8090. The server gets exchange data every 10 seconds and stores in memory - so don't let it run forever).
 6. in another tab/window, `cd` into the `react` folder inside the project folder
-7. Open the file index.html in a browser.
+7. Open the file `react/src/index.html` in a browser.
 8. Alternatively, if you want to be able to modify the code and see the changes, do the following:
-9. run `npm i`
+9. From the `react` folder, run `npm i`
 10. run `npm run dev` (this will serve the react app on port 8080, please make sure nothing else is using 8080)
 11. Open a web browser and go to URL `localhost:8080`
 
